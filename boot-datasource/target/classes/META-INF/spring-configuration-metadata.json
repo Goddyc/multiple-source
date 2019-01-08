@@ -1,0 +1,34 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.springboot.datasource.config.DataSourceConfig",
+      "name": "spring.datasource.master",
+      "sourceMethod": "dbTestDataSource()",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.springboot.datasource.config.DataSourceConfig",
+      "name": "spring.datasource.slave",
+      "sourceMethod": "dbSlaveDataSource()",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.springboot.datasource.properties.UserProperties",
+      "name": "user.admin",
+      "type": "com.springboot.datasource.properties.UserProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.springboot.datasource.properties.UserProperties",
+      "name": "user.admin.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.springboot.datasource.properties.UserProperties",
+      "name": "user.admin.role",
+      "type": "java.lang.String"
+    }
+  ]
+}
